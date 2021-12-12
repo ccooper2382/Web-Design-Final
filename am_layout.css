@@ -1,0 +1,332 @@
+@charset "utf-8";
+
+
+
+body {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+header, footer {
+	width: 100%;
+}
+nav.horizontal {
+	width: 100%;
+
+}
+
+
+header img{
+	width: 100%;
+	display: block;
+}
+
+aside {
+	-webkit-flex: 1 1 50px;
+	flex: 1 1 50px;
+}
+
+div#member {
+	margin: auto;
+}
+
+div#member h2 {
+	padding-left: 50px;
+}
+
+div#list  {
+	padding-left: 50px;
+}
+
+div#volunteer {
+	margin: auto;
+}
+
+div.exibit {
+	border: 1px solid black;
+	margin-top: 50px;	
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	display: flex;
+	max-width: 90%;
+	min-width: 33%;
+}
+
+div.exibit img {
+ 
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  padding-top: 15px;
+  max-width: 100%;
+  display: flex;
+}
+
+
+div.photo {
+	border: 1px solid black;
+	margin-top: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	display: flex;
+	max-width: 90%;
+	min-width: 50%;
+}
+
+
+div.photo img {
+ 
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  padding-top: 15px;
+  max-width: 100%;
+  display: flex;
+}
+div.galleryViewport {
+ 	
+	margin: auto;
+	padding-top: 25px;
+	padding-bottom: 25px; 
+	display: flex;
+	
+	max-width: 95%;
+	min-width: 95%;
+}
+
+div.exibitPage img{
+	margin: auto;
+	max-width: 100%;
+	min-width: 100%;
+	display: flex;
+}
+div.galleryViewport img {
+	  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 100%;
+  display: flex;
+}
+
+div#buttons {
+	display: flex;
+	margin: auto;
+	max-width: 100%;
+}
+
+div#buttons button {
+	display: flex;
+	margin: auto;
+	max-width: 100%;
+}
+div.galleryViewport img {
+	max-height:500px;
+	min-height:150px;
+	border: 2px black solid;
+}
+div figcaption {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+article figcaption {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+section {
+	-webkit-flex: 2 1 400px;
+	flex: 2 1 400px;
+	margin-bottom: 10px;
+}
+
+section {
+	-webkit-flex: 2 1 400px;
+	flex: 2 1 400px;
+}
+
+article h1 {
+	line-height: 1;
+}
+
+form#volform {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin-right: 50px;;
+}
+
+form#volform > fieldset {
+	border: none;
+	
+	-webkit-flex: 1 1 300;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding-left: 50px;	
+}
+
+div#volButtons {
+	display:flex;
+	margin: auto;
+	padding-left: 400px;
+}
+
+div#openSign img {
+	margin: 0px auto 0px auto;
+}
+div.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 7px 0px;	
+}
+
+div.formRow > * {
+		-webkit-flex: 1 1 150px;
+		flex: 1 1 150px;
+	}
+
+div#volunteer {
+	
+	margin: 0px auto 0px auto;
+}
+div#calendar {
+	display: flex;
+	max-width: 90%;
+	min-width: 10%;
+	margin: 0px auto 50px auto;
+}
+
+table#calendar_table {
+	margin: 0px auto 0px auto;
+}
+
+
+ol {
+	text-align: center;
+}
+
+footer div {
+	width: 33%;
+	float: left;
+	text-align: center;	
+	font-family: sans-serif;
+}
+
+
+
+/* =========================
+   Mobile Styles: 0 to 480px 
+   =========================
+*/
+
+@media only screen and (max-width: 480px) {
+  
+	aside {
+		-webkit-order: 99;
+		order: 99;
+	}
+	
+	footer {
+		-webkit-order: 100;
+		order: 100;
+	}
+	
+	header img {
+		display: none;
+	}
+	
+
+div.exibitPage img{
+padding-right: 20px;
+
+}
+
+div.galleryViewport img {
+    height:250px;	
+}
+
+div.galleryViewport {
+	padding-right: 25px;
+}
+
+
+fieldset#volInfo {
+	margin:auto;
+	padding-right: 50px;
+}
+div#volButtons {
+	padding-left: 75px;
+}
+
+div#calendar {
+	margin-right: 30px;;
+}
+
+div#list {
+	margin-right: 40px;
+}
+	
+	div#list li {
+		padding-top: 5px;
+	}
+	h1 {
+		line-height: 1;
+	}
+	
+	footer {
+		display: none;
+	}
+	
+}
+
+/* ============================================
+   Tablet and Desktop Styles: 481px and greater 
+   ============================================
+*/
+
+@media only screen and (min-width: 481px) {
+	
+	body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1260px;
+	min-width: 1024px;	
+}
+
+	
+	nav.horizontal::after {
+		clear: both;
+		content: "";
+		display: table;
+	}
+	nav.horizontal ul {
+		display: -webkit-flex;
+		display: flex;
+		
+		-webkit-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+	}
+
+	nav.horizontal li {
+		-webkit-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+	
+	article{
+		display: -webkit-flex;
+		display: flex;
+		
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		-webkit-flex: 2 1 auto;
+		flex: 2 1 auto;
+	}
+	
+	

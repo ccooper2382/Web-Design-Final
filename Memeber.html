@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>NWA Air and Military Museum</title> 
+	 <meta name="viewport" content="width=device-width, initial-scale=1" />
+	 <link href="am_reset.css" rel="stylesheet" /> 
+	 <link href="am_styles.css" rel="stylesheet" /> 
+	<link href="am_layout.css" rel="stylesheet" /> 
+	<script src="sign.js" defer></script>
+	
+	 
+</head>
+
+<body>
+  <header>
+      <img src="header.jpg" alt="NWA Air and Military Museum" />
+        <nav class="horizontal">
+         <ul>
+          <li><a href="index.html">Home</a></li>
+            <li><a href="Exibits.html">Exibits</a></li>
+            <li><a href="Photos.html">Picture Gallery</a></li>
+            <li><a href="Calendar.html">Calendar</a></li>
+            <li><a href="Memeber.html">Support</a></li>
+				
+				
+         </ul>
+      </nav>
+     
+   </header>
+  
+	
+	<section>
+	
+		<article>
+			<div id="member">
+				<h1>Become a Member</h1>
+					<h2>Membership Includes:</h2>
+						<div id="list">
+						<ul>
+							<li>Free admission, half-price for guests.</li>
+							<li>10% discount in the gift shop.</li>
+							<li>Museum newsletter.</li>
+							<li>Free use of video and research library.</li>
+						</ul>
+						</div>
+											
+			</div>
+			
+			<div id="volunteer">
+			
+				<h1>Become a Volunteer</h1>
+			<form id="volform" method="post">
+			<fieldset id="volInfo">
+			<legend>Volunteer Information</legend>
+			 
+			<div class="formRow">
+				<label for="name">Name*</label>
+				<input name="volName" id="name" type="text" placeholder="First and Last Name" required />
+				
+			</div>			
+			
+			<div class="formRow">
+				<label for="homePhone">Home Phone Number</label>
+				<input name="homePhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+			</div>
+			
+			<div class="formRow">
+				<label for="mobilePhone">Mobile Phone Number</label>
+				<input name="mobilePhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$">
+			</div>
+			
+			<div class="formRow">
+				<label for="custEmail">E-mail*</label>
+				<input name="custEmail" id="mail" type="email" required />
+			</div>
+			
+		
+			<label>Volunteer Availability</label>
+			<fieldset class="volInfo">
+				<label for="fFull">Full-time</label>
+				<input name="fullTime" id="fFull" value="full" type="radio" />
+				<label for="fPart">Part-time</label>
+				<input name="partTime" id="fPart" value="part" type="radio" />
+				<label for="fAny">Any-time</label>
+				<input name="anyTime" id="fAny" value="any" type="radio" />
+			</fieldset>
+			</div>
+			<div id="volButtons">
+			<input type="submit" value="Submit" />
+			<input type="reset" value="Cancel" />	
+			</div>
+		</div>
+		
+			
+		
+			
+			</form>
+		</article>
+		
+		
+	
+	
+	</section>
+	
+	<aside>
+<h2>Hours of Operation</h2>
+			<p>Please Check out the EVENTS CALENDAR under EVENTS for SPECIAL EVENTS AND MUSEUM CLOSERS.</p>
+		
+		<h3>Saturday</h3>
+		<p>10:00am to 4:30pm</p>
+		
+		<h3>Sunday - Friday</h3>
+		<p>11:00am to 4:30pm</p>
+		
+		<h3>The Museum is Currently</h3>
+		 <div id="openSign"></div>
+	</aside>
+
+</body>
+
+<footer>
+
+	<div> <p>Created by <a href="mailto:ccooper2382@gmail.com">Caleb Cooper</a></p>
+			<p>Who is a really great guy who needed to fill up some space</p>
+	</div>
+	
+	<div> <p>This site was created to meet the completion requirements for a Web Design class taken at the 
+	<a href="http://www.nwacc.edu">North West Arkansas
+	Community College  </a></p>
+	</div>
+	
+	<div>
+		
+		<p>Copyright © 2012 Arkansas Air & Military Museum. All rights reserved.</p>
+	</div>
+</footer> 
+
+</html>

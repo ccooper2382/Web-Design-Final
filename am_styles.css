@@ -1,0 +1,232 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'armalite';
+    src: url('armalite.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'd-day';
+    src: url('D Day Stencil.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typewriter';
+    src: url('TravelingTypewriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+html {
+	background-color: rgb(87, 100, 68);
+}
+nav.horizontal {
+
+	font-size: 1.5em;
+	background-color: rgb(82,50,27); 
+	}
+nav.horizontal a {
+	text-decoration: none;
+	color: rgb(230, 230, 230);
+	font-family: d-day, sans-serif;
+	padding: .8em;
+	
+}
+
+nav.horizontal ul {
+	margin-bottom: 25px;
+}
+
+
+nav.horizontal a:active,
+nav.horizontal a:hover {
+	background-color: rgba(80,80,80,0.5);
+	color: rgb(87, 100, 68);
+	transition: color 0.5s;
+	
+}
+
+
+
+
+nav.horizontal li {
+	list-style-type: none;
+	text-align: center;
+	margin-top: 1em;
+	font-size: 1.1em;
+}
+
+article {
+	padding-left: 2.1em;
+}
+a img {
+	height: 250px;
+	padding-left: 2em;
+}
+
+
+
+
+div.header {
+	font-family:"armalite",sans-serif;
+	font-size: 4em;
+	padding: 1em 0em 1em 0em;
+	text-align: center;
+	
+}
+
+legend {
+	font-family:"armalite",sans-serif;
+	font-size: 1.5em;
+}
+
+
+
+
+
+body {	
+	background-color: rgb(230, 230, 230);
+	border-left: 1px solid rgb(50,50,50);
+	border-right: 1px solid rgb(50,50,50);
+	box-shadow: rgb(50,50,50) 10px 5px 15px,
+	            rgb(50,50,50) -10px 5px 15px;
+}
+
+h1 {
+	font-family: "armalite",sans-serif;
+	font-size: 2em;
+	padding-left: 1em;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-family: "armalite",sans-serif;
+	font-size: 1.3em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+body section p {
+	font-family: "typewriter", serif;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 4px;
+	font-size: 1.2em;
+}
+
+body {
+	background-image:url("oldPaper.gif"); background-repeat: round;
+}
+body section {
+	height: 100%;	
+	line-height: 1.2;
+	
+}
+body aside {
+	background-color: black;
+	color: white;
+	font-family: "typewriter", serif;
+	padding-left: 1.5em;
+	padding-right: 1em;
+	text-align: center;
+	}
+	
+div#openSign img{
+	display: block;
+	height:150px;
+}
+
+body aside h2 {
+	text-align: center;
+}
+
+body aside h3 {
+	padding-top: 1em;
+}
+
+article {
+	font-family: "typewriter", serif;
+	font-size: 1em;
+}
+
+article p {
+	padding-top: 1em;
+}
+
+ video {
+	box-shadow: rgb(51,51,51) 8px 8px 15px;
+	display: flex;
+	margin: 40px auto;
+
+	max-width: 85%;
+}
+
+
+#calendar_table {
+   background-color: rgb(231, 231, 231);  
+   font-size: 0.9em; 
+  
+   width: 100%;
+   
+   margin-left: 60px;
+   margin-bottom: 100px;
+
+   box-shadow: rgb(51, 51, 51) 0px 0px 1px,
+               rgb(51, 51, 51) 0px 0px 5px, 
+               rgb(51, 51, 51) 0px 0px 10px,
+               rgb(51, 51, 51) 0px 0px 20px;               
+}
+
+
+#calendar_table caption {
+	 font-family: "armalite", serif;
+   caption-side: top; 
+   text-align: center;
+   padding-top:50px;
+   padding-bottom: 20px; 
+   font-size: 2em; 
+   letter-spacing: 0.3em;
+}
+
+.calendar_weekdays {
+  font-family: "typewriter", serif;
+  background-color: ivory;
+   width: 14.28%; 
+   font-size: 1em; 
+   border-bottom: 3px solid gray;
+}
+
+.calendar_dates {
+   text-align: left; 
+   vertical-align: top;
+   font-size: 0.8em;
+   padding: 3px;
+   border: 1px solid black;
+   background-color: white;
+   height: 100px;
+   width: 100px;
+}
+
+#calendar_today {
+   font-weight: bold; 
+   color: rgb(51, 51, 51);
+   background-color: rgb(251, 203, 176);
+   border: 1px solid black;
+}
+
+
+footer {
+	background-color: gray;
+	
+}
+
+footer div {
+	padding: 15px 50px 5px 50px;
+}
